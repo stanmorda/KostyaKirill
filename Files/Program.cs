@@ -13,3 +13,11 @@ DateTime d = DateTime.Now;
 DateTime d1 = DateTime.UtcNow;
 
 File.WriteAllText("test.txt", d.ToString());
+
+Console.Write(Mult(2, 2));
+
+
+double Mult(double a, double b)
+{
+    return a * b;
+}
