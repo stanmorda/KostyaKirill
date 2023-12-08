@@ -1,8 +1,34 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleApp1", "ConsoleApp1\ConsoleApp1.csproj", "{BDFC84B2-1AFF-4239-9504-A4ADE90BCA84}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleApp2", "ConsoleApp2\ConsoleApp2.csproj", "{DB1B8DBA-C5A7-4BAE-A5E5-E227AB92C2B5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Figures", "Figures\Figures.csproj", "{64DAA12A-2C0D-45FB-8AB6-76F65AC4C947}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Files", "Files\Files.csproj", "{5AEB8C20-DCEA-444B-9778-1CDA7B375BE3}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
 		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BDFC84B2-1AFF-4239-9504-A4ADE90BCA84}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BDFC84B2-1AFF-4239-9504-A4ADE90BCA84}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BDFC84B2-1AFF-4239-9504-A4ADE90BCA84}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BDFC84B2-1AFF-4239-9504-A4ADE90BCA84}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DB1B8DBA-C5A7-4BAE-A5E5-E227AB92C2B5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DB1B8DBA-C5A7-4BAE-A5E5-E227AB92C2B5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DB1B8DBA-C5A7-4BAE-A5E5-E227AB92C2B5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DB1B8DBA-C5A7-4BAE-A5E5-E227AB92C2B5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{64DAA12A-2C0D-45FB-8AB6-76F65AC4C947}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{64DAA12A-2C0D-45FB-8AB6-76F65AC4C947}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{64DAA12A-2C0D-45FB-8AB6-76F65AC4C947}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{64DAA12A-2C0D-45FB-8AB6-76F65AC4C947}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5AEB8C20-DCEA-444B-9778-1CDA7B375BE3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5AEB8C20-DCEA-444B-9778-1CDA7B375BE3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5AEB8C20-DCEA-444B-9778-1CDA7B375BE3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5AEB8C20-DCEA-444B-9778-1CDA7B375BE3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

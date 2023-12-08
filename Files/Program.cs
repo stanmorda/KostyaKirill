@@ -12,3 +12,4 @@ DateTime.TryParseExact(stringDate, "YYYY-MM-DD", CultureInfo.InvariantCulture, D
 DateTime d = DateTime.Now;
 DateTime d1 = DateTime.UtcNow;
 Console.Write($"{d:}");
+dsfsdf
