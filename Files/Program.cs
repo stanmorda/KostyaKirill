@@ -19,7 +19,7 @@ Console.Write(Calc(2,2));
 
 double Mult(double a, double b)
 {
-    return a * b * 2;
+    return a * b * 2 * 4;
 }
 
 int Calc(int a, int b)
