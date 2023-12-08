@@ -15,9 +15,14 @@ DateTime d1 = DateTime.UtcNow;
 File.WriteAllText("test.txt", d.ToString());
 
 Console.Write(Mult(2, 2));
-
+Console.Write(Calc(2,2));
 
 double Mult(double a, double b)
 {
     return a * b;
+}
+
+int Calc(int a, int b)
+{
+    return a + b;
 }
