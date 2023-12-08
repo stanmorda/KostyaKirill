@@ -17,4 +17,10 @@ File.WriteAllText("test.txt", d.ToString());
 // Console.Write($"{d:}");
 // dsfsdf
 
-Console.Write(d);
+Console.Write(Calc(2,2));
+
+
+int Calc(int a, int b)
+{
+    return a + b;
+}
