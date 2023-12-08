@@ -11,6 +11,9 @@ DateTime.TryParseExact(stringDate, "YYYY-MM-DD", CultureInfo.InvariantCulture, D
 
 DateTime d = DateTime.Now;
 DateTime d1 = DateTime.UtcNow;
+
+File.WriteAllText("test.txt", d.ToString());
+
 // Console.Write($"{d:}");
 // dsfsdf
 
