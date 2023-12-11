@@ -19,6 +19,11 @@ Console.Write(Calc(2,2));
 
 double Mult(double a, double b)
 {
+    
+#if DEBUG
+    return a * b * 2 * 3;
+#endif
+    
     return a * b * 2 * 4;
 }
 
